@@ -1,11 +1,11 @@
 {
-  "author": "AvianFlu <charlie@charlieistheman.com>, Enno Boland <eb@s01.de>",
+  "author": "Enno Boland <eb@s01.de>",
   "name": "fibonacci-async",
   "description": "So, you want to benchmark node.js with fibonacci once again? - Here's the library for that. You're welcome.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Gottox/fibonacci-native.git"
+    "url": "git://github.com/Gottox/fibonacci-async.git"
   },
   "main": "lib/binding.js",
   "dependencies": {},
