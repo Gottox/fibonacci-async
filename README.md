@@ -1,10 +1,12 @@
 # node-fibonacci-native
 
-First and foremost, yes, this library is a joke.  
+So, you want to benchmark Node.js with fibonacci once again? - Here's the library for that. Thanks.
 
-However, it also happens to be a very barebones example of how to make a C++
-addon for Node.JS, and I will maintain it as such.
+     npm install fibonacci-async
 
-     npm install fibonacci-native
-
-
+Example:
+	var fibonacci = require('fibonacci-async').fibonacci;
+	
+	fibonacci(10, function(res) {
+		process.stdout.write(res+"\n");
+	});

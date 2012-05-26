@@ -1,11 +1,11 @@
 {
-  "author": "AvianFlu <charlie@charlieistheman.com>",
-  "name": "fibonacci-native",
-  "description": "A C++ addon to compute the nth fibonacci number.",
-  "version": "0.0.0",
+  "author": "AvianFlu <charlie@charlieistheman.com>, Enno Boland <eb@s01.de>",
+  "name": "fibonacci-async",
+  "description": "So, you want to benchmark node.js with fibonacci once again? - Here's the library for that. You're welcome.",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/AvianFlu/fibonacci-native.git"
+    "url": "git://github.com/Gottox/fibonacci-native.git"
   },
   "main": "lib/binding.js",
   "dependencies": {},

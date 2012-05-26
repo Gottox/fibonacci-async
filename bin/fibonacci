@@ -1,5 +1,12 @@
 #! /usr/bin/env node
 
-var fibonacci = require('./lib/binding').fibonacci;
+var fibonacci = require('../lib/binding').fibonacci;
 
-console.log(fibonacci(parseInt(process.argv[2], 10)));
+if(process.argv.length != 3) {
+	process.stderr.write("Usage: fibonacci <x>\n")
+}
+else {
+	fibonacci(parseInt(process.argv[2], 10), function(res) {
+		process.stdout.write(res+"\n");
+	});
+}
