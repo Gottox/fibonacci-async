@@ -1,6 +1,6 @@
 # fibonacci-async for node
 
-So, you want to benchmark Node.js with fibonacci once again? - Here's the library for that. Thanks.
+So, you want to benchmark Node.js with fibonacci once again? - Here's the library for that. You're welcome.
 
      npm install fibonacci-async
 
