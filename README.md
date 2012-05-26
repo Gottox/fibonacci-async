@@ -1,4 +1,4 @@
-# node-fibonacci-native
+# fibonacci-async for node
 
 So, you want to benchmark Node.js with fibonacci once again? - Here's the library for that. Thanks.
 
