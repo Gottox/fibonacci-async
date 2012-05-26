@@ -1,0 +1,11 @@
+#! /usr/bin/env node
+
+var fibonacci = require('../lib/binding').fibonacci;
+var http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  fibonacci(40, function(result) {
+    res.end(result+"\n");
+  })
+}).listen(1337, "127.0.0.1");
